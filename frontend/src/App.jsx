@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 // Then use API_URL in your fetch/axios calls like:
 const response = await fetch(`${API_URL}/predict`, {

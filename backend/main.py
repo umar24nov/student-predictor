@@ -34,6 +34,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+import pandas as pd
+
+@app.on_event("startup")
+async def warmup():
+    dummy = pd.DataFrame(np.zeros((1, 36)), columns=FEATURE_NAMES)
+    X_scaled = scaler.transform(dummy)
+    model.predict(X_scaled)
+    print("✅ Model warmed up!")
+    
 # ── Request schema ────────────────────────────────────────────────────────────
 class StudentData(BaseModel):
     marital_status: int                             # 1–6

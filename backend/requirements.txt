@@ -6,3 +6,7 @@ numpy
 joblib
 pydantic
 gunicorn
+
+uvicorn
+fastapi
+python-multipart

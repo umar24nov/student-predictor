@@ -1,6 +1,10 @@
 import { useState, useEffect } from "react";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+
+// Then use API_URL in your fetch/axios calls like:
+const response = await fetch(`${API_URL}/predict`, {
+  method: "POST",});
 
 /* ─── Scroll helper ─────────────────────────── */
 function smoothScrollTo(id) {

@@ -1,0 +1,3 @@
+timestamp,prediction,confidence,ans_gender,ans_age,ans_tenthScore,ans_twelfthScore,ans_currentSem,ans_classTime,ans_attendance,ans_sem1Score,ans_sem2Score,ans_sem3Score,ans_sem4Score,ans_sem5Score,ans_skills,ans_living,ans_feeSource,ans_admissionType,ans_momEdu,ans_dadEdu,ans_dadJob,prob_Dropout,prob_Enrolled,prob_Graduate
+2026-03-05T20:40:19.884Z,Graduate,70.81,male,23,b60_75,b60_75,6,daytime,mostly,good,good,good,good,excellent,"['maths', 'coding', 'sports', 'languages']",relative,family,merit,none,none,farmer,13.03,16.16,70.81
+2026-03-05T20:47:00.337Z,Graduate,73.32,male,23,b60_75,b60_75,6,daytime,mostly,good,good,good,good,excellent,"['maths', 'coding']",relative,family,private,none,none,farmer,15.83,10.85,73.32

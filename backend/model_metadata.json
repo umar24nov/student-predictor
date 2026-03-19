@@ -1,0 +1,157 @@
+{
+  "model_type": "RandomForestClassifier",
+  "accuracy": 0.8101,
+  "cv_accuracy": 0.8684,
+  "cv_std": 0.0372,
+  "features": [
+    "sex",
+    "age",
+    "address",
+    "famsize",
+    "Pstatus",
+    "Medu",
+    "Fedu",
+    "Mjob",
+    "Fjob",
+    "reason",
+    "guardian",
+    "traveltime",
+    "studytime",
+    "failures",
+    "schoolsup",
+    "famsup",
+    "paid",
+    "activities",
+    "nursery",
+    "higher",
+    "internet",
+    "romantic",
+    "famrel",
+    "freetime",
+    "goout",
+    "Dalc",
+    "Walc",
+    "health",
+    "absences",
+    "G1",
+    "G2"
+  ],
+  "n_features": 31,
+  "target_classes": [
+    "At-Risk",
+    "Fail",
+    "Pass"
+  ],
+  "class_distribution": {
+    "Pass": 265,
+    "Fail": 92,
+    "At-Risk": 38
+  },
+  "dataset": "UCI Student Performance (Math)",
+  "dataset_size": 395,
+  "top_features": [
+    "G2",
+    "absences",
+    "G1",
+    "failures",
+    "Medu",
+    "age",
+    "Walc",
+    "Mjob",
+    "goout",
+    "health"
+  ],
+  "categorical_cols": [
+    "sex",
+    "address",
+    "famsize",
+    "Pstatus",
+    "Mjob",
+    "Fjob",
+    "reason",
+    "guardian",
+    "schoolsup",
+    "famsup",
+    "paid",
+    "activities",
+    "nursery",
+    "higher",
+    "internet",
+    "romantic"
+  ],
+  "categorical_mappings": {
+    "sex": {
+      "F": 0,
+      "M": 1
+    },
+    "address": {
+      "R": 0,
+      "U": 1
+    },
+    "famsize": {
+      "GT3": 0,
+      "LE3": 1
+    },
+    "Pstatus": {
+      "A": 0,
+      "T": 1
+    },
+    "Mjob": {
+      "at_home": 0,
+      "health": 1,
+      "other": 2,
+      "services": 3,
+      "teacher": 4
+    },
+    "Fjob": {
+      "at_home": 0,
+      "health": 1,
+      "other": 2,
+      "services": 3,
+      "teacher": 4
+    },
+    "reason": {
+      "course": 0,
+      "home": 1,
+      "other": 2,
+      "reputation": 3
+    },
+    "guardian": {
+      "father": 0,
+      "mother": 1,
+      "other": 2
+    },
+    "schoolsup": {
+      "no": 0,
+      "yes": 1
+    },
+    "famsup": {
+      "no": 0,
+      "yes": 1
+    },
+    "paid": {
+      "no": 0,
+      "yes": 1
+    },
+    "activities": {
+      "no": 0,
+      "yes": 1
+    },
+    "nursery": {
+      "no": 0,
+      "yes": 1
+    },
+    "higher": {
+      "no": 0,
+      "yes": 1
+    },
+    "internet": {
+      "no": 0,
+      "yes": 1
+    },
+    "romantic": {
+      "no": 0,
+      "yes": 1
+    }
+  }
+}

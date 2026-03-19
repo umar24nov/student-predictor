@@ -1,0 +1,27 @@
+# ── Python ────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# ── Node / Frontend ────────────────────────────
+node_modules/
+dist/
+.vite/
+
+# ── Environment / Secrets ─────────────────────
+.env
+
+# ── Data collection (sensitive user responses) ─
+backend/student_responses.csv
+
+# ── OS ────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────
+.vscode/
+.idea/
+*.swp
